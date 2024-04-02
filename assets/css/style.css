@@ -1,0 +1,105 @@
+/* Logo */
+.logo {
+    width: 40px; /* Ajusta el ancho de tu logotipo según tus necesidades */
+  }
+  
+  /* Cambia el color del enlace y el hover */
+  .navbar-nav .nav-link {
+    color: black;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: lightgray;
+  }
+  
+  /* Colores */
+body {
+    background-color: #8EB795;
+    color: #000000;
+  }
+  
+  h1 {
+    color: #1F363D;
+    flex-direction: center;
+    flex-wrap: wrap;
+    
+  }
+  
+/* Adjust the width of the left and right images */
+.left-image,
+.right-image {
+    width: 80px; /* Set your desired width */
+    height: auto;
+   background-color: #8EB795;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.image img {
+  max-width: 20%; /* Ensure image doesn't exceed container width */
+  height: 20%;
+}
+
+  .card {
+    background-color: #8EB795;
+    border: 1px solid #DDDDDD;
+  }
+  
+  .card-body {
+    color: #000000;
+  }
+  
+  .card-text {
+    color: #0e0000;
+  }
+ 
+ 
+  .footer-text {
+    text-align: left;
+    word-spacing: 10px; 
+}
+
+.section {
+  text-align: center;
+  padding: 20px;
+}
+
+.section-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,45 @@
+/* Logo */
+.logo {
+    width: 40px; /* Ajusta el ancho de tu logotipo según tus necesidades */
+  }
+  
+  /* Cambia el color del enlace y el hover */
+  .navbar-nav .nav-link {
+    color: white;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: lightgray;
+  }
+  
+  /* Colores */
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+  
+  h1 {
+    color: #DDDDDD;
+  }
+  
+  .card {
+    background-color: #F8F9FA;
+    border: 1px solid #DDDDDD;
+  }
+  
+  .card-body {
+    color: #000000;
+  }
+  
+  .card-text {
+    color: #0e0000;
+  }
+  
+  /* Agregar más estilos CSS según sea necesario */
+
+  .footer-text {
+    text-align: left;
+    word-spacing: 10px; /* Adjust as needed */
+}
+
+  
